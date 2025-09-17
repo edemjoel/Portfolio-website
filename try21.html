@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Packages</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0e0e0e;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .packages-section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .packages-section h2 {
+      font-size: 3rem;
+      margin-bottom: 3rem;
+      color: #f5f5f5;
+    }
+
+    .packages {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .package-box1 {
+      background: #1f1919;
+      flex: 1 1 25rem;
+      padding: 3rem 2rem;
+      border-radius: 12px;
+      position: relative;
+      transition: all 0.3s ease;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .package-box1:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(255, 215, 0, 0.3);
+    }
+
+    .package-box1 h3 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #ffd700;
+    }
+
+    .package-box1 li {
+      color: #ddd;
+      line-height: 1.6rem;
+      font-size: 1.1rem;
+      text-align: left;
+      margin: 0.5rem 0;
+    }
+
+    .package-box1 h5 {
+      font-size: 1.5rem;
+      color: #ffd700;
+      margin-top: 1.5rem;
+    }
+
+    .btn {
+      color: white;
+      background: #ffd700;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #e6c200;
+    }
+
+    /* Ribbon style */
+    .ribbon {
+      width: 150px;
+      background: #ffd700;
+      color: #000;
+      text-align: center;
+      font-weight: bold;
+      line-height: 30px;
+      position: absolute;
+      top: 15px;
+      right: -40px;
+      transform: rotate(45deg);
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <section class="packages-section" id="packages-section">
+    <a href="index1.html"> <button class="btn">HOME</button></a>  
+    <h2>OUR PACKAGES</h2>
+
+    <div class="packages">
+      <div class="package-box1">
+        <h3>SILVER PACKAGE</h3>
+        <ul>
+          <li>Basic website design and development (up to 5 pages)</li>
+          <li>Responsive design for mobile and tablet devices</li>
+          <li>Standard layout and UI components</li>
+          <li>Basic SEO optimization</li>
+          <li>One to two revisions</li>
+        </ul>
+        <h5>$200</h5>
+      </div>
+
+      <div class="package-box1">
+        <div class="ribbon">MOST POPULAR</div>
+        <h3>GOLDEN PACKAGE</h3>
+        <ul>
+          <li>Custom website development (up to 10 pages)</li>
+          <li>Advance UI components and interactions</li>
+          <li>Responsive design with mobile-first approach</li>
+          <li>Basic SEO optimizations and meta tags</li>
+          <li>Three to Five revisions</li>
+          <li>Integration with social media platforms</li>
+          <li>Basic form handling</li>
+        </ul>
+        <h5>$600</h5>
+      </div>
+
+      <div class="package-box1">
+        <h3>PLATINUM PACKAGE</h3>
+        <ul>
+          <li>Custom website design and development (up to 20 pages)</li>
+          <li>Advance UI/UX design and user experience optimization</li>
+          <li>Responsive design with complex layout and interactions</li>
+          <li>Advance SEO optimization and analytics setup</li>
+          <li>Five to Ten revisions</li>
+          <li>Integration with third party APIs</li>
+          <li>Custom form handling and validation</li>
+          <li>Priority support and maintenance</li>
+        </ul>
+        <h5>$1200</h5>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
