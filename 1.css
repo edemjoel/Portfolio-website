@@ -238,6 +238,7 @@ transform: scale(1.1);
 }
 .portfolio-layer h4 {
   font-size: 3rem;
+  color:var(--second-bg-c0lor);
 }
 .portfolio-layer p {
   font-size: 1.6rem;
@@ -413,4 +414,5 @@ a{text-decoration: none;}
   --text-color: #111;
   --main-color: #82860d;
 }
+
 
